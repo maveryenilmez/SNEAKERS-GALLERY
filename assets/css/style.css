@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+:root {
+    font-size: 14px;
+    --typewriterSpeed: 6s;
+    --typewriterCharacters: 24;
+}
+
+* {
+    margin: 0;
+}
+
+.carousel {
+    display: none;
+    background-color: #1B212D;
+    height: 93.5vh;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    object-position: top center;
+
+}
+
+
+.carousel-inner {
+    padding-top: 3vh;
+    height: 85%;
+    width: auto;
+    background-color: #1B212D;
+}
+
+.carousel-indicators {
+    bottom: 7vh;
+}
+
+.globe {
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper {
+    padding-top: 2vh;
+    padding-left: 1vw;
+}
+
+
+#panier {
+    font-size: 1.2rem;
+
+}
+
+
+
+.nameProduct {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.descProduct {
+    font-size: 1.3em;
+}
+
+.priceProduct {
+    font-size: 2.2em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+.product {
+    width: 45%;
+    min-height: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgProduct {
+    width: 80%;
+}
+
+.buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#filter {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-collapse {
+    background-color: #1B212D;
+}
+
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.button {
+
+    color: black;
+    transition: 0.25s;
+    border: none;
+    font-size: 1.4em;
+    color: #F9D6AE;
+    font-weight: bold;
+    text-align: start;
+    background-color: #1B212D;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button:hover {
+    transform: scale(1.2);
+
+}
+
+.button:focus {
+    outline: none;
+}
+
+.buttonModal {
+    margin-right: 1rem;
+    border-radius: 15px;
+    padding: 10px;
+    border: #F14B2A solid 2px;
+    background-color: #F14B2A;
+    color: black;
+    transition: 0.25s;
+}
+
+.buttonModal:hover {
+    background-color: #ec6449;
+    border: #ec6449 solid 2px;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content2 {
+    background-color: #ec6449;
+    margin-top: 7.5vh;
+    position: absolute;
+    right: 0;
+    width: 25%;
+    height: auto;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px black;
+    overflow-x: hidden;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-content {
+    margin-top: 7.5vh;
+    position: absolute;
+    right: 0;
+    width: 75%;
+    height: auto;
+    overflow-y: auto;
+    box-shadow: 0px 0px 10px black;
+    overflow-x: hidden;
+
+}
+
+
+.modal-header {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #F9D6AE;
+    background-color: #1B212D;
+}
+
+.modal-body {
+    overflow-y: initial;
+    flex: 1 1 1;
+
+}
+
+.objectCart {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding-inline: 5%;
+    height: fit-content;
+}
+
+
+.elementName {
+    font-size: 1.2rem;
+    justify-content: start;
+    width: 100%;
+}
+
+.total {
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.2s ease;
+}
+
+.total:hover {
+    color: #ec6449;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.elementPrice {
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: start;
+}
+
+.imgCart {
+    width: 10%;
+    height: auto;
+}
+
+.modal-footer {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    bottom: 0;
+    background-color: #1B212D;
+    color: #F9D6AE;
+
+}
+
+.removeItem {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.delete {
+    cursor: pointer;
+    padding-right: 1em;
+    transition: 0.1s ease;
+    font-size: 1.4rem;
+}
+
+.delete:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.acheter {
+    cursor: pointer;
+    padding-left: 1em;
+    transition: 0.1s ease;
+    font-size: 1.4rem;
+}
+
+.acheter:hover {
+    font-weight: bold;
+    transform: scale(1.1);
+}
+
+.close {
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F9D6AE;
+    transition: 0.2s ease;
+}
+
+.close:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+@font-face {
+    font-family: "futura";
+    src: url("/assets/Fonts/De-Futura.ttf");
+}
+
+html {
+
+    height: 1920px;
+
+}
+
+
+header {
+    background-color: #1B212D;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+.navbar {
+    background-color: #1B212D;
+    height: 7.5vh;
+}
+
+.nav-item {
+    padding-left: 4vw;
+}
+
+.navbar-brand {
+    color: #F9D6AE;
+    font-size: medium;
+}
+
+
+
+#titleSite {
+    font-weight: bold;
+    transition: 200ms ease;
+    font-size: 1.75rem;
+    padding-left: 2vw;
+}
+
+#titleSite:focus {
+    color: #F9D6AE;
+}
+
+#titleSite:hover {
+    transform: scale(1.1);
+}
+
+.navMenu {
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    font-size: medium;
+    transition: 200ms ease;
+}
+
+.nav-link:focus {
+    color: #ec6449;
+}
+
+
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Futura-Normal', arial;
+
+}
+
+.dropdown-menu {
+    background-color: #F14B2A;
+}
+
+.dropdown-item {
+    color: white;
+    border: 3px #F14B2A;
+}
+
+.fa-heart {
+    color: white;
+}
+
+.fa-heart:hover {
+    text-decoration: none;
+    color: #F14B2A;
+}
+
+.fa-shopping-cart {
+    color: white;
+}
+
+.fa-shopping-cart:hover {
+    text-decoration: none;
+    color: #F14B2A;
+}
+
+.logo a:hover {
+
+    color: #F9D6AE;
+
+}
+
+.dropdown a:hover {
+    color: #F14B2A;
+    background: none;
+
+
+}
+
+a {
+
+    -o-transition: color .2s ease-out, background 1s ease-in;
+    -ms-transition: color .2s ease-out, background 1s ease-in;
+    -moz-transition: color b .2s ease-out, background 1s ease-in;
+    -webkit-transition: color .2s ease-out, background 1s ease-in;
+    transition: color .2s ease-out, background 1s ease-in;
+}
+
+
+img {
+    font-size: 1300px;
+    border-radius: 5px;
+}
+
+
+.fa-bars {
+    color: #F14B2A;
+    font-size: 25px;
+}
+
+.visually-hidden {
+    color: black;
+}
+
+
+
+@media screen and (min-width : 576px) {
+    .product {
+        width: 30%;
+    }
+
+    .globe {
+        flex-direction: row;
+    }
+
+    #wrapper {
+        width: 20%;
+        padding-left: 1vw;
+        padding-top: 10%;
+    }
+
+    #filter {
+        display: flex;
+        justify-content: start;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    .container-fluid {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .navbar-collapse {
+        flex: 0;
+    }
+
+    .modal-content {
+        margin-top: 7.5vh;
+        position: absolute;
+        right: 0;
+        width: 25%;
+        height: auto;
+        overflow-y: auto;
+        box-shadow: 0px 0px 10px black;
+        overflow-x: hidden;
+
+    }
+    .container-fluid {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .navMenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-link:focus {
+        color: #ec6449;
+        transform: scale(1.1);
+    }
+    
+    .nav-link:hover {
+        transform: scale(1.1);
+    }
+    .nav-item{
+        padding-left: 0;
+        text-align: center;
+        margin-right: 6vh;
+    }
+    .nav-link{
+        font-size: 1.5rem;
+    }
+
+    #titleSite{
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (min-width : 992px) {
+    .product {
+        width: 25%;
+    }
+
+    .container {
+        padding-left: 5%;
+    }
+
+    .carousel {
+        display: block;
+    }
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a,
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    margin: 0em;
+}
+
+/* Main content */
+.main {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+    display: none;
+    padding-left: 10px;
+}
+
+/* Optional: Style the caret down icon */
+/* voir le html pour insérer des icons*/
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+/* //////////////////////////////////////////////// */
+h4:hover {
+    color: #FF3000;
+}
+
+.filters:hover {
+    color: #FF3000;
+}
+
+.filters {
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+.welcome {
+    font-family: "Montserrat";
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6vh;
+    letter-spacing: 1px;
+    padding-top: 8vh;
+}
+
+.heading{
+    font-size: 2.5rem;
+    color: rgb(249, 214, 174);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

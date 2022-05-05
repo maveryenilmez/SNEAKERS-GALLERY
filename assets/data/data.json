@@ -1,0 +1,235 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "name": "Nike Air Force 1 x Supreme",
+            "description_brand":"Nike x Supreme",
+            "picture_path":"https://cdn-images.farfetch-contents.com/15/25/25/05/15252505_26432831_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/15/25/25/05/15252505_26432832_1000.jpg",
+            "brand":["Nike","Supreme"],
+            "gender":"Male",
+            "color":["White","Red"],
+            "price":"250"
+        },
+        {
+            "id" : 2,
+            "name": "Balenciaga Track",
+            "description_brand":"Balenciaga",
+            "picture_path":"https://cdn-images.farfetch-contents.com/16/19/50/68/16195068_32835096_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/16/19/50/68/16195068_32833397_1000.jpg",
+            "brand":["Balenciaga"],
+            "gender":"Male",
+            "color":["Black"],
+            "price":"725"
+        },
+        {
+            "id" : 3,
+            "name": "Nike Air Max Plus TN",
+            "description_brand":"Air Max Plus TN",
+            "picture_path":"https://cdn-images.farfetch-contents.com/16/07/07/00/16070700_30288607_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/16/07/07/00/16070700_30291067_1000.jpg",
+            "brand":["Nike"],
+            "gender":"Male",
+            "color":["Pink","Red","Black"],
+            "price":"641"
+        },
+        {
+            "id" : 4,
+            "name": "Air Jordan 1 x Dior",
+            "description_brand":"Jordan x Dior",
+            "picture_path":"https://cdn-images.farfetch-contents.com/15/62/45/04/15624504_28291154_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/15/62/45/04/15624504_28291155_1000.jpg",
+            "brand":["Jordan","Dior"],
+            "gender":"Male",
+            "color":["Grey","Black"],
+            "price":"13715"
+        },
+        {
+            "id" : 5,
+            "name": "Adidas YEEZY 700 v3",
+            "description_brand":"Adidas",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/71/33/82/17713382_37240394_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/71/33/82/17713382_37238650_1000.jpg",
+            "brand":["Adidas"],
+            "gender":"Male",
+            "color":["Orange","Black"],
+            "price":"225"
+        },
+        {
+            "id" : 6,
+            "name": "Trigeca",
+            "description_brand":"Versace",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/33/62/99/17336299_37677891_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/33/62/99/17336299_37679179_1000.jpg",
+            "brand":["Versace"],
+            "gender":"Male",
+            "color":["Red","Black","Blue","Green"],
+            "price":"750"
+        },
+        {
+            "id" : 7,
+            "name": "Odsy-1000",
+            "description_brand":"Off-White",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/59/50/08/17595008_36663055_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/59/50/08/17595008_36661815_1000.jpg",
+            "brand":["Off-White"],
+            "gender":"Male",
+            "color":["Black"],
+            "price":"590"
+        },
+        {
+            "id" : 8,
+            "name": "Triple S cuir artificiel",
+            "description_brand":"Balenciaga",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/73/20/35/17732035_37554646_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/73/20/35/17732035_37555300_1000.jpg",
+            "brand":["Balenciaga"],
+            "gender":"Female",
+            "color":["Pink"],
+            "price":"850"
+        },
+        {
+            "id" : 9,
+            "name": "Dunk high 'Atomic Green'",
+            "description_brand":"Nike X AMBUSH",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/17/31/20/17173120_34835338_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/17/31/20/17173120_34835326_1000.jpg",
+            "brand":["Nike","AMBUSH"],
+            "gender":"Male",
+            "color":["Yellow"],
+            "price":"318"
+        },
+        {
+            "id" : 10,
+            "name": "Off-Court 3.0",
+            "description_brand":"Off-White",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/59/04/48/17590448_36866339_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/59/04/48/17590448_36864271_1000.jpg",
+            "brand":["Off-White"],
+            "gender":"Female",
+            "color":["White","Orange"],
+            "price":"490"
+        },
+        {
+            "id" : 11,
+            "name": "Greca",
+            "description_brand":"Versace",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/42/05/97/17420597_36868634_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/42/05/97/17420597_36868636_1000.jpg",
+            "brand":["Versace"],
+            "gender":"Male",
+            "color":["Black"],
+            "price":"790"
+        },
+        {
+            "id" : 12,
+            "name": "Run Star",
+            "description_brand":"Converse",
+            "picture_path":"https://cdn-images.farfetch-contents.com/16/67/98/25/16679825_36070196_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/16/67/98/25/16679825_36070198_1000.jpg",
+            "brand":["Converse"],
+            "gender":"Male",
+            "color":["White","Black"],
+            "price":"110"
+        },
+        {
+            "id" : 13,
+            "name": "Dunk LX 'Toasty'",
+            "description_brand":"Nike",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/65/16/39/17651639_36859516_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/65/16/39/17651639_36859520_1000.jpg",
+            "brand":["Nike"],
+            "gender":"Female",
+            "color":["White","Green","Brown"],
+            "price":"363"
+        },
+        {
+            "id" : 14,
+            "name": " Air Jordan 1 SE",
+            "description_brand":"Jordan",
+            "picture_path":"https://cdn-images.farfetch-contents.com/16/46/33/98/16463398_32315079_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/16/46/33/98/16463398_32315081_1000.jpg",
+            "brand":["Jordan"],
+            "gender":"Female",
+            "color":["White","Pink","Orange"],
+            "price":"199"
+        },
+        {
+            "id" : 15,
+            "name": "Odsy en Mesh",
+            "description_brand":"Off-White",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/12/65/61/17126561_36873680_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/12/65/61/17126561_36874506_1000.jpg",
+            "brand":["Off-White"],
+            "gender":"Male",
+            "color":["Blue"],
+            "price":"1172"
+        },
+        {
+            "id" : 16,
+            "name": "Air Max plus TN",
+            "description_brand":"Nike",
+            "picture_path":"https://cdn-images.farfetch-contents.com/16/07/06/99/16070699_30288604_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/16/07/06/99/16070699_30288603_1000.jpg",
+            "brand":["Nike"],
+            "gender":"Male",
+            "color":["Green","Orange","Blue"],
+            "price":"627"
+        },
+        {
+            "id" : 17,
+            "name": "Triple Platform",
+            "description_brand":"Adidas",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/23/28/98/17232898_35301833_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/23/28/98/17232898_35302722_1000.jpg",
+            "brand":["Adidas"],
+            "gender":"Female",
+            "color":["White","Purple","Yellow"],
+            "price":"213"
+        },
+        {
+            "id" : 18,
+            "name": "Arrows",
+            "description_brand":"Off-White",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/60/25/45/17602545_36617025_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/60/25/45/17602545_36615635_1000.jpg",
+            "brand":["Off-White"],
+            "gender":"Male",
+            "color":["Black","Blue"],
+            "price":"1044"
+        },
+        {
+            "id" : 19,
+            "name": "YEEZY Boost 350 V2",
+            "description_brand":"Adidas",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/41/70/39/17417039_37328997_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/41/70/39/17417039_37330744_1000.jpg",
+            "brand":["Adidas"],
+            "gender":"Male",
+            "color":["Black"],
+            "price":"480"
+        },
+        {
+            "id" : 20,
+            "name": "Chuck Taylor All Star",
+            "description_brand":"Converse",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/68/02/08/17680208_36963136_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/68/02/08/17680208_36963139_1000.jpg",
+            "brand":["Converse"],
+            "gender":"female",
+            "color":["White","Black"],
+            "price":"91"
+        },
+        {
+            "id" : 21,
+            "name": "YEEZY 500 'Clay Brown",
+            "description_brand":"Adidas",
+            "picture_path":"https://cdn-images.farfetch-contents.com/17/31/72/57/17317257_36609945_1000.jpg",
+            "picture_hover_path":"https://cdn-images.farfetch-contents.com/17/31/72/57/17317257_36609947_1000.jpg",
+            "brand":["Adidas"],
+            "gender":"Male",
+            "color":["Brown"],
+            "price":"265"
+        }
+    ]
+}
